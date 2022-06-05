@@ -9,7 +9,7 @@ Currently, CMake Commands has problem in downloading, so manualy installed now.
 
 package.xml
 ``` xml
-<depend>eigen_ros2\</depend>
+<depend>eigen_ros2</depend>
 ```
 
 CMakeLists.txt
