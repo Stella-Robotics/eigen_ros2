@@ -15,7 +15,7 @@ package.xml
 CMakeLists.txt
 ``` CMake
 find_package(eigen_ros2 REQUIRED)
-target_link_libraries(${your_target} PUBLIC eigen_ros2)
+target_link_libraries(${your_target} PUBLIC eigen_ros2::eigen_ros2)
 ```
 
 Source.cpp

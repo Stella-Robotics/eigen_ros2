@@ -37,5 +37,9 @@ install(
   INCLUDES DESTINATION include
 )
 
+install(DIRECTORY include/Eigen
+  DESTINATION "include"
+)
+
 ament_export_targets("export_${PROJECT_NAME}")
 ament_package()
